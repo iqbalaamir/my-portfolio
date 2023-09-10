@@ -1,0 +1,42 @@
+.skills-section {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+.skills-title {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill {
+  width: 80%;
+  margin: 10px 0;
+}
+
+.skill-name {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.progress {
+  height: 20px;
+  background: #ccc;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.progress-done {
+  background: linear-gradient(to left, #36A2EB, #FF6384);
+  color: white;
+  text-align: center;
+  height: 100%;
+  border-radius: 15px;
+  transition: width 1s ease-in-out;
+}

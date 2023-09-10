@@ -1,0 +1,48 @@
+/* Common styles for both themes */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  position: relative;
+  padding: 0.5rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar a .icon {
+  margin-right: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+  color: #00FF00; /* You can choose any color for hover */
+}
+
+.navbar a:hover .icon {
+  transform: rotate(360deg);
+}
+
+.active {
+  border-bottom: 2px solid white;
+}
+
+/* Light Theme */
+.navbar.light {
+  background: navy;  /* Navy blue background */
+  color: white;
+}
+
+/* Dark Theme */
+.navbar.dark {
+  background: #001F3F;  /* Darker navy blue background */
+  color: white;
+}
